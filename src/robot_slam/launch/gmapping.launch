@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find abot_bringup)/launch/rplidar.launch" />
+  <include file="$(find abot_bringup)/param/slam/slam_gmapping.xml" />
+  <!--include file="$(find abot_bringup)/param/navigation/move_base.xml" /-->
+</launch>
